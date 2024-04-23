@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+/* si o si
+font-family LISTO
+font-size LISTO
+color LISTO
+background-color LISTO
+text-align LISTO
+text-decoration LISTO
+border-radius LISTO 
+*/
+
+body{
+    background-color: #F5FFFB;
+    font-family: "Manrope", sans-serif;
+    font-weight: 200;
+    margin: 10%;
+    font-size: 20px;
+    text-align: justify;
+}
+
+
+#vinculo1 {
+    color: #000000;
+    font-family: "Manrope", sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+}
+#vinculo1:hover {
+    text-decoration: underline;
+}
+
+#vinculo2 {
+    color: #000000;
+    font-family: "Roboto Mono", monospace;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+}
+#vinculo2:hover {
+    font-style: italic;
+    color: #00B388;
+}
+
+
+h1{
+    font-weight: 200;
+    font-size: 60px;
+    text-align:center;
+    line-height: 30%;
+}
+
+h2{
+    font-weight: 800;
+    font-size: 24px;
+    text-align:center;
+    color: #00B388;
+}
+
+h3{
+    font-size: 20px;
+    font-family: "Roboto Mono", monospace;
+    font-weight: 700;
+}
+
+
+
+img {
+    width: 30%;
+    margin:auto;
+    display: block;
+    border-radius:300px;
+}
